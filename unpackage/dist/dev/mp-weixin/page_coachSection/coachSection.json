@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "教练端",
+  "enablePullDownRefresh": false,
+  "navigationBarBackgroundColor": "#37cf70",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {}
+}

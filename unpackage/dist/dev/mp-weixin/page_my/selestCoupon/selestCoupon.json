@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "选择优惠劵",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "o-divider": "/uni_modules/o-divider/components/o-divider/o-divider"
+  }
+}

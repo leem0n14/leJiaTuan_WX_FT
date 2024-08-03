@@ -1,0 +1,23 @@
+/* 文字风格 */
+@mixin text-style($size,$weight,$color,$height) {
+	font: {
+		family:Microsoft YaHei;
+		size:$size + rpx;
+		weight:$weight;
+	}
+	color: $color;
+	line-height: $height + rpx;
+}
+
+/* 按钮样式 */
+@mixin btn-style($width,$height,$background,$radius) {
+	width:$width + rpx;
+	height:$height + rpx;
+	background:$background;
+	border-radius:$radius + rpx;
+	padding: 0;
+}
+
+button::after {
+	border: none;
+}

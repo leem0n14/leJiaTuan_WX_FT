@@ -1,0 +1,42 @@
+
+.userOpinion {
+	box-sizing: border-box;
+	margin: 60rpx auto 0;
+	padding: 30rpx;
+	width: 690rpx;
+	height: 509rpx;
+	background: #f5f5f5;
+	border-radius: 16rpx;
+}
+.placeholder {
+	height: 28rpx;
+	font-size: 28rpx;
+	font-family: Source Han Sans CN, Source Han Sans CN-Regular;
+	font-weight: 400;
+	text-align: left;
+	color: #999999;
+	line-height: 28rpx;
+}
+.num {
+	margin: 16rpx 30rpx 0 0;
+	height: 26rpx;
+	font-size: 24rpx;
+	font-family: Source Han Sans CN, Source Han Sans CN-Regular;
+	font-weight: 400;
+	text-align: right;
+	color: #c1c1c1;
+	line-height: 26rpx;
+}
+button {
+	margin: 100rpx auto 0;
+	width: 580rpx;
+	height: 90rpx;
+	background: linear-gradient(134deg, #54d685, #29c563 99%);
+	border-radius: 45rpx;
+	font-family: Source Han Sans CN, Source Han Sans CN-Regular;
+	font-weight: 400;
+	text-align: center;
+	color: #ffffff;
+	line-height: 90rpx;
+}
+

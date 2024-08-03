@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "我的优惠券",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "o-divider": "/uni_modules/o-divider/components/o-divider/o-divider"
+  }
+}

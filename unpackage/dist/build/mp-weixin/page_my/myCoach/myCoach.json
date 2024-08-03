@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "我的教练",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "uni-rate": "/uni_modules/uni-rate/components/uni-rate/uni-rate",
+    "u-subsection": "/uni_modules/uview-ui/components/u-subsection/u-subsection"
+  }
+}

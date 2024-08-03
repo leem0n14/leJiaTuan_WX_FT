@@ -1,0 +1,1 @@
+<view><view class="body"><image src="{{cdn+'/sign/'+photo}}" mode="aspectFill"></image><text class="name">{{title}}</text></view></view>

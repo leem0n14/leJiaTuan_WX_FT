@@ -1,0 +1,1 @@
+<view class="view"><block wx:if="{{!detail.text}}"><view class="empty">管理员未添加富文本</view></block><block wx:else><view class="richText"><rich-text nodes="{{detail.text}}"></rich-text></view></block></view>

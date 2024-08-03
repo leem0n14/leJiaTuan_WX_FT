@@ -1,0 +1,145 @@
+
+page {
+	background: #f2f3f5;
+}
+.father {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	padding-top: 20rpx;
+}
+.father .novenue {
+	position: absolute;
+	top: 287rpx;
+	left: 212rpx;
+	width: 326rpx;
+	height: 177rpx;
+}
+.father .text {
+	position: absolute;
+	top: 494rpx;
+	left: 319rpx;
+	width: 112rpx;
+	height: 28rpx;
+	font-size: 28rpx;
+	font-family: Source Han Sans CN, Source Han Sans CN-Regular;
+	font-weight: 400;
+	text-align: center;
+	color: #999999;
+	line-height: 40rpx;
+}
+.father .son {
+	position: relative;
+	margin: 0 24rpx 20rpx;
+	width: 702rpx;
+	height: 188rpx;
+	background: #ffffff;
+	border-radius: 8rpx;
+}
+.father .son image {
+	position: absolute;
+	top: 24rpx;
+	left: 20rpx;
+	width: 140rpx;
+	height: 140rpx;
+	/* background-color: #dff9dc; */
+}
+.father .son text {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.father .son .name {
+	position: absolute;
+	top: 24rpx;
+	left: 180rpx;
+	width: 224rpx;
+	height: 28rpx;
+	font-size: 28rpx;
+	font-family: Source Han Sans CN, Source Han Sans CN-Medium;
+	font-weight: 500;
+	text-align: left;
+	color: #111111;
+	line-height: 29rpx;
+}
+.father .son .address {
+	position: absolute;
+	top: 68rpx;
+	left: 180rpx;
+	width: 339rpx;
+	height: 26rpx;
+	font-size: 24rpx;
+	font-family: Source Han Sans CN, Source Han Sans CN-Regular;
+	font-weight: 400;
+	text-align: left;
+	color: #999999;
+	line-height: 30rpx;
+}
+.father .son .coachNum {
+	position: absolute;
+	left: 180rpx;
+	top: 118rpx;
+	width: 109rpx;
+	height: 36rpx;
+	background: #ffecd9;
+	border-radius: 2rpx;
+	font-size: 20rpx;
+	font-family: Source Han Sans CN, Source Han Sans CN-Regular;
+	font-weight: 400;
+	text-align: center;
+	color: #f17516;
+	line-height: 36rpx;
+}
+.carNum,
+.coachNum {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.father .son .carNum {
+	position: absolute;
+	top: 118rpx;
+	left: 305rpx;
+	width: 131rpx;
+	height: 36rpx;
+	background: #dff9dc;
+	border-radius: 2rpx;
+	font-size: 20rpx;
+	font-family: Source Han Sans CN, Source Han Sans CN-Regular;
+	font-weight: 400;
+	text-align: center;
+	color: #29c563;
+	line-height: 36rpx;
+}
+.father .son .position {
+	position: absolute;
+	top: 24rpx;
+	right: 0rpx;
+	height: 140rpx;
+	width: 156rpx;
+	/* background-color: skyblue; */
+	border-left: #e3e3e3 solid 2rpx;
+}
+.father .son .position .arrowhead {
+	position: absolute;
+	top: 26rpx;
+	left: 57rpx;
+	/* background-color: yellowgreen; */
+	width: 54rpx;
+	height: 58rpx;
+}
+.father .son .position .distance {
+	position: absolute;
+	bottom: 20rpx;
+	right: 36rpx;
+	width: 84rpx;
+	height: 24rpx;
+	font-size: 24rpx;
+	font-family: Source Han Sans CN, Source Han Sans CN-Regular;
+	font-weight: 400;
+	text-align: center;
+	color: #666666;
+	line-height: 29rpx;
+}
+

@@ -1,0 +1,1 @@
+<view><view class="box"><block wx:if="{{examRule.rule}}"><view class="richText"><rich-text nodes="{{examRule.rule}}"></rich-text></view></block><block wx:else><view class="empty">暂未设置规则</view></block></view></view>

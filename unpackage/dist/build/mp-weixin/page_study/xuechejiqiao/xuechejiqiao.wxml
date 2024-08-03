@@ -1,0 +1,1 @@
+<view><view class="body"><block wx:for="{{list}}" wx:for-item="k" wx:for-index="i" wx:key="id"><view data-event-opts="{{[['tap',[['e0',['$event']]]]]}}" data-event-params="{{({k})}}" class="son" bindtap="__e"><image class="bg" src="{{cdn+('/information/'+k.photo)}}" mode="aspectFill"></image><view></view><text>{{k.title}}</text></view></block></view></view>

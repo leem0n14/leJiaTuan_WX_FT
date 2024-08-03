@@ -1,0 +1,185 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+/* 主题色 */
+/* 通用样式 */
+.border-bottom {
+  border-bottom: solid 1rpx #f5f5f5;
+}
+.margin-b20 {
+  margin-bottom: 20rpx;
+}
+/* 文字风格 */
+/* 按钮样式 */
+button::after {
+  border: none;
+}
+page {
+  background: #f2f2f2;
+}
+._root .coupons-wrap {
+  margin: 16rpx 20rpx;
+}
+._root .coupons-wrap .swiper1 {
+  width: 600rpx;
+  height: 180rpx;
+}
+._root .coupons-wrap .swiper1 .swiper_item {
+  display: flex;
+  margin: 16rpx;
+  margin-bottom: 16rpx;
+  align-items: center;
+  justify-content: space-between;
+  width: 686rpx;
+  height: 173rpx;
+  border-radius: 8rpx;
+  background-color: #c7c7c7;
+  position: relative;
+  overflow: hidden;
+}
+._root .coupons-wrap .swiper1 .swiper_item .smallBorer {
+  position: absolute;
+  top: -20rpx;
+  left: 72%;
+  height: 41rpx;
+  width: 44rpx;
+  border-radius: 100%;
+  background-color: #c7c7c7;
+  z-index: 999;
+}
+._root .coupons-wrap .swiper1 .swiper_item .smallBorer1 {
+  position: absolute;
+  top: 149rpx;
+  left: 72%;
+  height: 41rpx;
+  width: 44rpx;
+  border-radius: 100%;
+  background-color: #c7c7c7;
+  z-index: 999;
+}
+._root .coupons-wrap .swiper1 .swiper_item .swiper-item-left-backround {
+  display: flex;
+  align-items: center;
+  width: 75%;
+  height: 100%;
+  background-color: #ffffff;
+}
+._root .coupons-wrap .swiper1 .swiper_item .swiper-item-left-backround .swiper-item-left {
+  width: 265rpx;
+  height: 87rpx;
+  display: flex;
+  justify-content: space-between;
+}
+._root .coupons-wrap .swiper1 .swiper_item .swiper-item-left-backround .swiper-item-left .swiper-item-left-price {
+  margin-left: 20rpx;
+}
+._root .coupons-wrap .swiper1 .swiper_item .swiper-item-left-backround .swiper-item-left .swiper-item-left-price .qq {
+  display: inline-block;
+  color: #f93030;
+  margin-top: 25rpx;
+}
+._root .coupons-wrap .swiper1 .swiper_item .swiper-item-left-backround .swiper-item-left .swiper-item-left-price .swiper-item-left-price-top {
+  display: inline-block;
+  font-size: 60rpx;
+  font-family: Source Han Sans CN, Source Han Sans CN-Medium;
+  font-weight: 500;
+  color: #f93030;
+  line-height: 29rpx;
+}
+._root .coupons-wrap .swiper1 .swiper_item .swiper-item-left-backround .swiper-item-left .swiper-item-left-price .swiper-item-left-price-bottom {
+  width: 100rpx;
+  font-size: 20rpx;
+  font-family: Source Han Sans CN, Source Han Sans CN-Regular;
+  font-weight: 400;
+  color: #f93030;
+  line-height: 29rpx;
+}
+._root .coupons-wrap .swiper1 .swiper_item .swiper-item-left-backround .swiper-item-left .swiper-item-left-name {
+  margin-left: 5rpx;
+  margin-top: 5rpx;
+}
+._root .coupons-wrap .swiper1 .swiper_item .swiper-item-left-backround .swiper-item-left .swiper-item-left-name .swiper-item-left-name-top {
+  display: inline-block;
+  width: 200rpx;
+  height: 32rpx;
+  font-size: 32rpx;
+  font-family: Source Han Sans CN, Source Han Sans CN-Medium;
+  font-weight: 500;
+  text-align: center;
+  color: #000000;
+  line-height: 29rpx;
+}
+._root .coupons-wrap .swiper1 .swiper_item .swiper-item-left-backround .swiper-item-left .swiper-item-left-name .swiper-item-left-name-bottom {
+  width: 238px;
+  margin-top: 17rpx;
+  margin-bottom: 17rpx;
+  font-size: 24rpx;
+  font-family: Source Han Sans CN, Source Han Sans CN-Regular;
+  font-weight: 400;
+  text-align: left;
+  color: #999999;
+  line-height: 29rpx;
+}
+._root .coupons-wrap .swiper1 .swiper_item .swiper-item-right-backround {
+  display: flex;
+  align-items: center;
+  width: 25%;
+  height: 100%;
+  background-color: #ffffff;
+  border-left: 1px dashed #c7c7c7;
+}
+._root .coupons-wrap .swiper1 .swiper_item .swiper-item-right-backround .swiper-item-right {
+  margin-right: 30rpx;
+  margin-top: 20rpx;
+}
+._root .coupons-wrap .swiper1 .swiper_item .swiper-item-right-backround .swiper-item-right .swiper-item-right-button {
+  display: inline-block;
+  width: 153rpx;
+  height: 56rpx;
+  border-radius: 28rpx;
+  background: #EC6744;
+  font-size: 24rpx;
+  font-family: Source Han Sans CN, Source Han Sans CN-Regular;
+  font-weight: 400;
+  text-align: center;
+  color: #ffffff;
+  margin-left: 17rpx;
+}
+.received {
+  display: inline-block;
+  width: 68px;
+  height: 28px;
+  border-radius: 14px;
+  font-size: 10px;
+  font-family: Source Han Sans CN, Source Han Sans CN-Regular;
+  font-weight: 400;
+  text-align: center;
+  color: #ffffff;
+  margin-left: 20px;
+  background-color: gray;
+  cursor: not-allowed;
+}
+

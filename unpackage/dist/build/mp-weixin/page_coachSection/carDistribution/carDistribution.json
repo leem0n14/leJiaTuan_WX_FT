@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "车辆分配",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-subsection": "/uni_modules/uview-ui/components/u-subsection/u-subsection"
+  }
+}

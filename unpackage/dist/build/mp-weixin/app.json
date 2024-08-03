@@ -1,0 +1,191 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/study/study",
+    "pages/category/category",
+    "pages/my/my"
+  ],
+  "subPackages": [
+    {
+      "root": "page_coachSection",
+      "pages": [
+        "coachSection",
+        "addCar/addCar",
+        "addCar/accident/accident",
+        "addCar/fix/fix",
+        "addCar/insure/insure",
+        "addCar/maintain/maintain",
+        "addCar/record/record",
+        "carDistribution/carDistribution",
+        "checking/checking",
+        "myPinche/myPinche",
+        "studentManage/studentManage",
+        "studentManage/studentDetail/studentDetail",
+        "studentsBooking/studentsBooking"
+      ]
+    },
+    {
+      "root": "page_shopping",
+      "pages": [
+        "shopping",
+        "paySuccess",
+        "orderDetail"
+      ]
+    },
+    {
+      "root": "page_indexOperate",
+      "pages": [
+        "bookingPractice/bookingPractice",
+        "coach/coach",
+        "coach/coachDetail/coachDetail",
+        "coach/beCoach/beCoach",
+        "guide/guide",
+        "invite/invite",
+        "mockExam/mockExam",
+        "venue/venue",
+        "venue/venueDetail/venueDetail"
+      ]
+    },
+    {
+      "root": "page_my",
+      "pages": [
+        "selestCoupon/selestCoupon",
+        "myCoupon/myCoupon",
+        "coupon/coupon",
+        "customer/customer",
+        "distribution/distribution",
+        "distribution/getMoney/getMoney",
+        "distribution/getMoney/goTixian/goTixian",
+        "distribution/history/history",
+        "distribution/shareOrders/shareOrders",
+        "distribution/shareTeam/shareTeam",
+        "distribution/shareTeam/whoesOrder/whoesOrder",
+        "myBooking/myBooking",
+        "myBooking/bookingExam/bookingExam",
+        "myCoach/myCoach",
+        "myBaoming/myBaoming",
+        "myBaoming/toBaoming/toBaoming",
+        "myCoach/changeCoach/changeCoach",
+        "myFenqi/myFenqi",
+        "orders/orders",
+        "pinche/pinche",
+        "pinche/toPinche/toPinche",
+        "pinTuan/pinTuan",
+        "pinTuan/pintuanList/pintuanList",
+        "returnOpinion/returnOpinion",
+        "signIn/signIn",
+        "signIn/detailed/detailed",
+        "studyProgress/studyProgress",
+        "myMsg/myMsg"
+      ]
+    },
+    {
+      "root": "page_study",
+      "pages": [
+        "videoView/videoView",
+        "cuoti/cuoti",
+        "datijiqiao/datijiqiao",
+        "datijiqiao/detail/detail",
+        "dengguangmoni/dengguangmoni",
+        "kaogui/kaogui",
+        "kaoshimiji/kaoshimiji",
+        "kaoshimiji/detailed/detailed",
+        "lianti/lianti",
+        "lianti/score/score",
+        "monikaoshi/monikaoshi",
+        "monikaoshi2/monikaoshi2",
+        "monikaoshi2/mockExam3/mockExam3",
+        "monikaoshi2/newRoute/newRoute",
+        "monikaoshi2/newRoute/markerMap/markerMap",
+        "shoucang/shoucang",
+        "suijilianxi/suijilianxi",
+        "tiku/tiku",
+        "tubiaoguanli/tubiaoguanli",
+        "tubiaoguanli/l1/l1",
+        "tubiaoguanli/l1/l2/l2",
+        "tubiaoguanli/l1/l2/l3/l3",
+        "vipCourse/vipCourse",
+        "weizuoti/weizuoti",
+        "wodechengji/wodechengji",
+        "xuechejiqiao/xuechejiqiao",
+        "xuechejiqiao/detail/detail",
+        "yuyinbobao/yuyinbobao",
+        "zhuanxianglianxi/zhuanxianglianxi"
+      ]
+    },
+    {
+      "root": "page_login",
+      "pages": [
+        "status/status",
+        "index_2",
+        "index_3",
+        "login",
+        "status/userInfo"
+      ]
+    }
+  ],
+  "window": {
+    "backgroundColor": "#edeef0",
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#333333",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/images/icon/indexIcon.png",
+        "selectedIconPath": "static/images/icon/indexIconOn.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/study/study",
+        "iconPath": "static/images/icon/studyIcon.png",
+        "selectedIconPath": "static/images/icon/studyIconOn.png",
+        "text": "学习"
+      },
+      {
+        "pagePath": "pages/category/category",
+        "iconPath": "static/images/icon/categoryIcon.png",
+        "selectedIconPath": "static/images/icon/categoryIconOn.png",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "static/images/icon/myIcon.png",
+        "selectedIconPath": "static/images/icon/myIconOn.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "plugins": {
+    "chooseLocation": {
+      "version": "1.0.9",
+      "provider": "wx76a9a06e5b4e693e"
+    },
+    "routePlan": {
+      "version": "1.0.18",
+      "provider": "wx50b5593e81dd937a"
+    }
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "获取您的位置信息，以便更快提供系统定位信息"
+    },
+    "scope.camera": {
+      "desc": "调用您的摄像头，用于实地拍照打卡"
+    }
+  },
+  "lazyCodeLoading": "requiredComponents",
+  "requiredPrivateInfos": [
+    "getLocation",
+    "chooseLocation",
+    "startLocationUpdate",
+    "onLocationChange",
+    "startLocationUpdateBackground"
+  ],
+  "workers": "workers/",
+  "usingComponents": {}
+}

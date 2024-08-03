@@ -1,0 +1,1 @@
+<view><button data-event-opts="{{[['tap',[['e0',['$event']]]]]}}" bindtap="__e">进入教练端</button><button data-event-opts="{{[['tap',[['e1',['$event']]]]]}}" bindtap="__e">商品页</button><image style="width:75rpx;height:75rpx;border-radius:50%;" src="{{cdn+'/user/touxiang.png'}}" mode="aspectFill"></image><video src="http://119.91.194.65:8088/1.MP4"></video></view>

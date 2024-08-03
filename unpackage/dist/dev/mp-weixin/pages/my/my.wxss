@@ -1,0 +1,348 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+/* 主题色 */
+/* 通用样式 */
+.border-bottom {
+  border-bottom: solid 1rpx #f5f5f5;
+}
+.margin-b20 {
+  margin-bottom: 20rpx;
+}
+/* 文字风格 */
+/* 按钮样式 */
+button::after {
+  border: none;
+}
+page {
+  background-color: #f2f3f5;
+}
+.background {
+  position: relative;
+}
+.background image {
+  width: 750rpx;
+  height: 337rpx;
+  z-index: -3;
+}
+.content {
+  position: relative;
+  top: -287rpx;
+  width: 690rpx;
+  margin: 0 auto;
+}
+.userMsg {
+  position: relative;
+  height: 100rpx;
+  width: 100%;
+}
+.userMsg .pic {
+  position: absolute;
+  left: 30rpx;
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50rpx;
+}
+.userMsg .name {
+  position: absolute;
+  top: 8rpx;
+  left: 170rpx;
+  height: 40rpx;
+  font-size: 40rpx;
+  font-family: Source Han Sans CN, Source Han Sans CN-Bold;
+  font-weight: 700;
+  text-align: left;
+  color: #ffffff;
+  line-height: 40rpx;
+}
+.userMsg .edit {
+  display: flex;
+  position: absolute;
+  left: 170rpx;
+  bottom: 16rpx;
+  height: 28rpx;
+  opacity: 0.8;
+  font-size: 28rpx;
+  font-family: Source Han Sans CN, Source Han Sans CN-Regular;
+  font-weight: 400;
+  text-align: left;
+  color: #ffffff;
+  line-height: 28rpx;
+}
+.userMsg .noLogin {
+  position: absolute;
+  left: 170rpx;
+  top: 30rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+  font-size: 40rpx;
+  font-family: Source Han Sans CN, Source Han Sans CN-Bold;
+  font-weight: 700;
+  text-align: left;
+  color: #ffffff;
+}
+.userMsg .signIn {
+  position: absolute;
+  right: 30rpx;
+  top: 22rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 130rpx;
+  height: 55rpx;
+  background: #ffffff;
+  border-radius: 28rpx;
+}
+.userMsg .signIn image {
+  margin-right: 7rpx;
+  width: 30rpx;
+  height: 30rpx;
+}
+.userMsg .signIn text {
+  font-size: 26rpx;
+  font-family: Source Han Sans CN, Source Han Sans CN-Regular;
+  font-weight: 400;
+  text-align: left;
+  color: #ffbb1e;
+}
+.plan {
+  display: flex;
+  position: relative;
+  margin-top: 30rpx;
+  width: 690rpx;
+  height: 250rpx;
+  background: #ffffff;
+  border-radius: 16rpx;
+}
+.plan .text {
+  position: absolute;
+  top: 40rpx;
+  left: 30rpx;
+  width: 112rpx;
+  height: 28rpx;
+  font-size: 28rpx;
+  font-family: Source Han Sans CN, Source Han Sans CN-Bold;
+  font-weight: 700;
+  text-align: left;
+  color: #333333;
+  line-height: 28rpx;
+}
+.probar {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 200rpx;
+}
+.course {
+  position: relative;
+  width: 100rpx;
+  height: 100rpx;
+}
+.course:nth-child(-n+3)::after {
+  position: absolute;
+  top: 48rpx;
+  right: -66rpx;
+  content: '';
+  width: 60rpx;
+  height: 4rpx;
+  opacity: 0.4;
+  background: linear-gradient(134deg, #54d685, #29c563 99%);
+  border-radius: 2rpx;
+}
+.course .num {
+  position: absolute;
+  top: 32rpx;
+  left: 15rpx;
+  height: 40rpx;
+  width: 70rpx;
+  line-height: 40rpx;
+  text-align: center;
+  color: #29C563;
+}
+.course .courseName {
+  position: absolute;
+  width: 100rpx;
+  height: 24rpx;
+  font-size: 24rpx;
+  font-family: Source Han Sans CN, Source Han Sans CN-Regular;
+  font-weight: 400;
+  text-align: center;
+  color: #333333;
+  line-height: 29rpx;
+}
+.course .finished {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 10rpx;
+  left: 10rpx;
+  width: 80rpx;
+  height: 80rpx;
+  box-sizing: border-box;
+  border: 4rpx solid #b5ebc5;
+  border-radius: 50%;
+}
+.course .noOpen {
+  position: absolute;
+  top: 10rpx;
+  left: 10rpx;
+  width: 80rpx;
+  height: 80rpx;
+  box-sizing: border-box;
+  border: 4rpx solid #ededed;
+  border-radius: 50%;
+}
+.function {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  max-width: 690rpx;
+  min-height: 180rpx;
+  padding: 15rpx 0;
+  background: #ffffff;
+  border-radius: 16rpx;
+  margin-top: 20rpx;
+  overflow-x: scroll;
+}
+.function .son {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 110rpx;
+  width: 96rpx;
+  margin: 25rpx 38rpx;
+}
+.function .son image {
+  width: 70rpx;
+  height: 70rpx;
+}
+.function .son .red {
+  position: absolute;
+  top: -6rpx;
+  right: 8rpx;
+  width: 12rpx;
+  height: 12rpx;
+  background: #f93030;
+  border-radius: 50%;
+}
+.function .son .text {
+  height: 24rpx;
+  font-size: 24rpx;
+  font-family: Source Han Sans CN, Source Han Sans CN-Regular;
+  font-weight: 400;
+  text-align: center;
+  color: #333333;
+  line-height: 24rpx;
+}
+.last {
+  margin-top: 20rpx;
+  width: 690rpx;
+  background-color: #fff;
+  border-radius: 16rpx;
+  max-height: 440rpx;
+  overflow-y: scroll;
+}
+.last .son {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  height: 88rpx;
+}
+.last .son image {
+  margin: 0 30rpx;
+  height: 45rpx;
+  width: 45rpx;
+}
+.last .son .right {
+  position: absolute;
+  right: 30rpx;
+  width: 17rpx;
+  height: 17rpx;
+}
+.last .son .text {
+  height: 28rpx;
+  font-size: 28rpx;
+  font-family: Source Han Sans CN, Source Han Sans CN-Regular;
+  font-weight: 400;
+  text-align: left;
+  color: #333333;
+  line-height: 28rpx;
+}
+.fixed {
+  position: fixed;
+  bottom: 50rpx;
+  right: 0;
+  width: 160rpx;
+  height: 160rpx;
+}
+.fixed image {
+  position: absolute;
+  width: 160rpx;
+  height: 160rpx;
+}
+.fixed button {
+  position: absolute;
+  top: 20rpx;
+  left: 20rpx;
+  opacity: 0;
+  width: 120rpx;
+  height: 120rpx;
+  z-index: 2;
+}
+.coachIO {
+  margin: 20rpx auto 0;
+  text-align: center;
+  margin-top: 20rpx;
+  width: 690rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  background-color: #34cd6d;
+  border-radius: 16rpx;
+  color: #fff;
+  font-size: 32rpx;
+}
+.status {
+  margin: 20rpx auto 0;
+  text-align: center;
+  margin-top: 20rpx;
+  width: 690rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  border-radius: 16rpx;
+  color: #fff;
+  font-size: 32rpx;
+  background: linear-gradient(180deg, #49ccf5, #4988f5);
+}
+

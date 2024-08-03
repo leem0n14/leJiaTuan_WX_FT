@@ -1,0 +1,1 @@
+<view><view class="hd"><block wx:for="{{8}}" wx:for-item="k" wx:for-index="i"><view class="son"><image src="{{cdn+'/image/study/sourse3/ligthMock/light.png'}}" mode="aspectFill"></image><text>{{'灯光'+'0'+(i+1)}}</text></view></block></view><view class="bd"><block wx:for="{{textList}}" wx:for-item="k" wx:for-index="i" wx:key="i"><text>{{k}}</text></block></view></view>

@@ -1,0 +1,476 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+/* 主题色 */
+/* 通用样式 */
+.border-bottom {
+  border-bottom: solid 1rpx #f5f5f5;
+}
+.margin-b20 {
+  margin-bottom: 20rpx;
+}
+/* 文字风格 */
+/* 按钮样式 */
+button::after {
+  border: none;
+}
+.countdown {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 750rpx;
+  height: 80rpx;
+  background: #ffffff;
+}
+.countdown view {
+  display: flex;
+  align-items: center;
+}
+.countdown view image {
+  width: 28rpx;
+  height: 28rpx;
+  margin-right: 12rpx;
+}
+.countdown view text {
+  font-size: 24rpx;
+  line-height: 28rpx;
+  font-family: Source Han Sans CN, Source Han Sans CN-Regular;
+  font-weight: 400;
+  text-align: left;
+  color: #999999;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 750rpx;
+  height: 80rpx;
+  background: #ffffff;
+}
+.nav .left,
+.nav .right {
+  width: 269rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  font-size: 24rpx;
+  font-family: Source Han Sans CN, Source Han Sans CN-Regular;
+  font-weight: 400;
+  text-align: center;
+  border: 1rpx solid #29c563;
+}
+.nav .left {
+  border-radius: 30rpx 0rpx 0rpx 30rpx;
+}
+.nav .right {
+  border-radius: 0rpx 30rpx 30rpx 0rpx;
+}
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 750rpx;
+  max-height: 85vh;
+  overflow-y: auto;
+}
+.body .w {
+  width: 690rpx;
+}
+.body .question {
+  position: relative;
+  text-indent: 4em;
+  padding: 20rpx 0;
+}
+.body .question text {
+  font-size: 32rpx;
+  font-family: Source Han Sans CN, Source Han Sans CN-Regular;
+  font-weight: 400;
+  line-height: 37rpx;
+  text-align: left;
+  color: #333333;
+}
+.body .question .tixing {
+  position: absolute;
+  top: 20rpx;
+  left: 10rpx;
+  width: 74rpx;
+  height: 37rpx;
+  line-height: 37rpx;
+}
+.body .question .tixing image {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 74rpx;
+  height: 37rpx;
+}
+.body .question .tixing text {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 74rpx;
+  height: 37rpx;
+  text-indent: 0em;
+  font-size: 24rpx;
+  font-family: Source Han Sans CN, Source Han Sans CN-Regular;
+  font-weight: 400;
+  text-align: center;
+  line-height: 37rpx;
+  color: #ffffff;
+  z-index: 1;
+}
+.body .pic {
+  width: 690rpx;
+  min-height: 241rpx;
+  background-color: skyblue;
+  margin-top: 29rpx;
+}
+.body .answer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30rpx;
+}
+.body .answer .answerAct {
+  border-color: #29c563;
+}
+.body .answer .son {
+  display: flex;
+  flex-direction: row;
+  padding: 26rpx 24rpx;
+  margin-bottom: 20rpx;
+  background: #ffffff;
+  border: 1rpx solid #c1c1c1;
+  border-radius: 4rpx;
+}
+.body .answer .son image {
+  margin-right: 24rpx;
+  width: 28rpx;
+  height: 28rpx;
+  border-radius: 50%;
+}
+.body .answer .son view {
+  margin-right: 24rpx;
+  width: 28rpx;
+  height: 28rpx;
+  border-radius: 50%;
+  box-sizing: border-box;
+  border: 1rpx solid #c1c1c1;
+}
+.body .answer .son text {
+  max-width: 586rpx;
+  font-size: 28rpx;
+  line-height: 28rpx;
+  font-family: Source Han Sans CN, Source Han Sans CN-Regular;
+  font-weight: 400;
+  text-align: left;
+  color: #333333;
+}
+.body .correct {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50rpx;
+}
+.body .correct text {
+  font-size: 32rpx;
+  font-family: Source Han Sans CN, Source Han Sans CN-Regular;
+  font-weight: 400;
+  text-align: center;
+  color: #666666;
+}
+.body .correct .nextBtn {
+  margin: 0;
+  width: 200rpx;
+  height: 60rpx;
+  background: linear-gradient(134deg, #54d685, #29c563 99%);
+  border-radius: 31rpx;
+  font-size: 28rpx;
+  line-height: 60rpx;
+  font-family: Source Han Sans CN, Source Han Sans CN-Regular;
+  font-weight: 400;
+  text-align: center;
+  color: #fff;
+}
+.body .correct .subBtn {
+  margin: 0;
+  width: 200rpx;
+  height: 60rpx;
+  background: #ffffff;
+  border: 1rpx solid #707070;
+  border-radius: 31rpx;
+  font-size: 28rpx;
+  line-height: 60rpx;
+  font-family: Source Han Sans CN, Source Han Sans CN-Regular;
+  font-weight: 400;
+  text-align: center;
+  color: #111111;
+}
+.body .explain {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 0 24rpx;
+  margin-bottom: 20rpx;
+  background: #eff0f2;
+  border-radius: 8px;
+}
+.body .explain .title {
+  display: flex;
+  align-items: center;
+  padding: 20rpx 0;
+}
+.body .explain .title view {
+  margin-right: 16rpx;
+  width: 8rpx;
+  height: 28rpx;
+  background: #29c563;
+  border-radius: 4rpx;
+}
+.body .explain .title text {
+  font-size: 28rpx;
+  font-family: Source Han Sans CN, Source Han Sans CN-Regular;
+  font-weight: 400;
+  text-align: left;
+  color: #333333;
+}
+.body .explain .content {
+  padding-bottom: 20rpx;
+  font-size: 32rpx;
+  line-height: 44rpx;
+  font-family: Source Han Sans CN, Source Han Sans CN-Regular;
+  font-weight: 400;
+  text-align: left;
+  color: #666666;
+}
+.tiList {
+  position: fixed;
+  bottom: 8.5vh;
+  left: 0;
+  width: 750rpx;
+  height: 70vh;
+  box-sizing: border-box;
+  z-index: 98;
+  background-color: #fff;
+}
+.tiList .mask {
+  position: absolute;
+  top: -30vh;
+  width: 750rpx;
+  height: 30vh;
+  opacity: 0.5;
+  background: #000000;
+}
+.tiList .content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 20rpx 0 0 20rpx;
+  max-height: 70vh;
+  width: 750rpx;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+.tiList .content .son {
+  margin: 0 20rpx 20rpx 0;
+  width: 85rpx;
+  height: 85rpx;
+  line-height: 85rpx;
+  background: #ffffff;
+  border: 1rpx solid #707070;
+  border-radius: 50%;
+  font-size: 28rpx;
+  font-family: Source Han Sans CN, Source Han Sans CN-Regular;
+  font-weight: 400;
+  text-align: center;
+  color: #666666;
+}
+.score {
+  position: fixed;
+  top: 20vh;
+  left: 55rpx;
+  width: 640rpx;
+  height: 698rpx;
+  background: #ffffff;
+  border-radius: 16rpx;
+  z-index: 99;
+}
+.score .mask {
+  position: absolute;
+  top: -20vh;
+  left: -55rpx;
+  width: 100vw;
+  height: 100vh;
+  opacity: 0.5;
+  background: #000000;
+}
+.score .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 640rpx;
+  height: 698rpx;
+  background: #ffffff;
+  border-radius: 16rpx;
+}
+.score .content .title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 50rpx 0;
+}
+.score .content .title text {
+  font-size: 40rpx;
+  font-family: Source Han Sans CN, Source Han Sans CN-Medium;
+  font-weight: 500;
+  text-align: center;
+  color: #333333;
+  margin: 0 26rpx;
+}
+.score .content .title view {
+  width: 58rpx;
+  height: 6rpx;
+  background: #ededed;
+  border-radius: 1rpx;
+}
+.score .content .progressBar {
+  position: relative;
+  width: 200rpx;
+  height: 200rpx;
+}
+.score .content .progressBar .text {
+  position: absolute;
+  top: 70rpx;
+  left: 52rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.score .content .progressBar .text text {
+  font-size: 24rpx;
+  font-family: Source Han Sans CN, Source Han Sans CN-Medium;
+  font-weight: 500;
+  text-align: center;
+  color: #666666;
+  line-height: 36rpx;
+}
+.score .content .isPass {
+  margin: 20rpx 0;
+  font-size: 28rpx;
+  font-family: Source Han Sans CN, Source Han Sans CN-Medium;
+  font-weight: 500;
+  text-align: center;
+  color: #29c563;
+}
+.score .content .fenshu {
+  margin-top: 20rpx;
+  font-size: 28rpx;
+  font-family: Source Han Sans CN, Source Han Sans CN-Medium;
+  font-weight: 500;
+  text-align: center;
+  color: #666666;
+}
+.score .content .fenshu text {
+  font-size: 40rpx;
+  font-family: Source Han Sans CN, Source Han Sans CN-Medium;
+  font-weight: 500;
+  text-align: center;
+  color: #f93030;
+}
+.score .content .btns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 27rpx;
+  margin-top: 50rpx;
+}
+.score .content .btns button {
+  width: 260rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 28rpx;
+  font-family: Source Han Sans CN, Source Han Sans CN-Regular;
+  font-weight: 400;
+  text-align: center;
+}
+.score .content .btns .continue {
+  background: #ffffff;
+  border: 1rpx solid #29c563;
+  border-radius: 41rpx;
+  color: #29c563;
+}
+.score .content .btns .sub {
+  background: linear-gradient(134deg, #54d685, #29c563 99%);
+  border-radius: 40rpx;
+  color: #ffffff;
+}
+.bottom {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 750rpx;
+  height: 98rpx;
+  padding: 0 24rpx;
+  box-sizing: border-box;
+  border-top: 2rpx solid #ededed;
+  background: #ffffff;
+}
+.bottom .son {
+  display: flex;
+  align-items: center;
+}
+.bottom .son image {
+  margin-right: 10rpx;
+  width: 34rpx;
+  height: 34rpx;
+}
+.bottom .son text {
+  font-size: 28rpx;
+  font-family: Source Han Sans CN, Source Han Sans CN-Regular;
+  font-weight: 400;
+  text-align: center;
+  color: #333333;
+}
+.bottom .jiaojuan {
+  width: 200rpx;
+  height: 68rpx;
+  line-height: 68rpx;
+  background: linear-gradient(134deg, #54d685, #29c563 99%);
+  border-radius: 34rpx;
+  font-size: 28rpx;
+  font-family: Source Han Sans CN, Source Han Sans CN-Regular;
+  font-weight: 400;
+  text-align: center;
+  color: #ffffff;
+}
+

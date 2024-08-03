@@ -1,0 +1,399 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+/* 主题色 */
+/* 通用样式 */
+.border-bottom {
+  border-bottom: solid 1rpx #f5f5f5;
+}
+.margin-b20 {
+  margin-bottom: 20rpx;
+}
+/* 文字风格 */
+/* 按钮样式 */
+button::after {
+  border: none;
+}
+page {
+  background-color: #f2f3f5;
+}
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.body .nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 30rpx;
+  box-sizing: border-box;
+  width: 750rpx;
+  height: 110rpx;
+}
+.body .nav .son {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 46rpx;
+}
+.body .nav .son .act {
+  font-size: 34rpx;
+  font-family: Source Han Sans CN, Source Han Sans CN-Bold;
+  font-weight: 700;
+  text-align: center;
+  color: #333333;
+}
+.body .nav .son .noAct {
+  font-size: 30rpx;
+  font-family: Source Han Sans CN, Source Han Sans CN-Regular;
+  font-weight: 400;
+  text-align: center;
+  color: #999999;
+}
+.body .nav .son view {
+  position: absolute;
+  bottom: -16rpx;
+  width: 62rpx;
+  height: 6rpx;
+  background: #29c563;
+  background-color: #29c563;
+}
+.body .ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 750rpx;
+  max-height: 1000rpx;
+  box-sizing: border-box;
+  overflow-y: scroll;
+}
+.body .ul .li {
+  position: relative;
+  width: 690rpx;
+  box-sizing: border-box;
+  padding: 30rpx;
+  margin-bottom: 20rpx;
+  background: #ffffff;
+  border-radius: 16rpx;
+}
+.body .ul .li .userMsg {
+  position: relative;
+  width: 630rpx;
+  height: 150rpx;
+}
+.body .ul .li .userMsg .bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 630rpx;
+  height: 150rpx;
+}
+.body .ul .li .userMsg .content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 630rpx;
+  height: 150rpx;
+  box-sizing: border-box;
+  z-index: 2;
+}
+.body .ul .li .userMsg .content .msg {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 24rpx;
+}
+.body .ul .li .userMsg .content .msg image {
+  width: 102rpx;
+  height: 102rpx;
+  background: #f2f3f5;
+  border-radius: 50%;
+}
+.body .ul .li .userMsg .content .msg .text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20rpx;
+}
+.body .ul .li .userMsg .content .msg .text .name {
+  font-size: 30rpx;
+  font-family: Source Han Sans CN, Source Han Sans CN-Bold;
+  font-weight: 700;
+  text-align: left;
+  color: #ffffff;
+  margin-bottom: 18rpx;
+}
+.body .ul .li .userMsg .content .msg .text .phone {
+  opacity: 0.5;
+  font-size: 30rpx;
+  font-family: Source Han Sans CN, Source Han Sans CN-Regular;
+  font-weight: 400;
+  text-align: left;
+  color: #ffffff;
+}
+.body .ul .li .userMsg .content .callIcon {
+  margin-right: 30rpx;
+  width: 56rpx;
+  height: 56rpx;
+}
+.body .ul .li .time {
+  margin: 30rpx 0;
+  font-size: 30rpx;
+  font-family: Source Han Sans CN, Source Han Sans CN-Regular;
+  font-weight: 400;
+  text-align: left;
+  color: #333333;
+}
+.body .ul .li .mid {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.body .ul .li .mid .journey {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.body .ul .li .mid .journey .start {
+  margin-bottom: 20rpx;
+}
+.body .ul .li .mid .journey .start::after {
+  position: absolute;
+  left: 6rpx;
+  top: 26rpx;
+  content: '';
+  width: 2rpx;
+  height: 53rpx;
+  background: #f2f3f5;
+}
+.body .ul .li .mid .journey .start,
+.body .ul .li .mid .journey .end {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 30rpx;
+  font-family: Source Han Sans CN, Source Han Sans CN-Regular;
+  font-weight: 400;
+  text-align: left;
+  color: #333333;
+}
+.body .ul .li .mid .journey .start .circle,
+.body .ul .li .mid .journey .end .circle {
+  width: 14rpx;
+  height: 14rpx;
+  border-radius: 50%;
+  margin-right: 8rpx;
+}
+.body .ul .li .mid .price {
+  font-size: 26rpx;
+  font-family: Source Han Sans CN, Source Han Sans CN-Regular;
+  font-weight: 400;
+  text-align: right;
+  color: #111111;
+}
+.body .ul .li .mid .price text {
+  font-size: 36rpx;
+  font-family: Source Han Sans CN, Source Han Sans CN-Bold;
+  font-weight: 700;
+  text-align: right;
+  color: #f55549;
+}
+.body .ul .li .confirm {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  padding-top: 27rpx;
+}
+.body .ul .li .confirm button {
+  margin: 0;
+  width: 180rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  background: #ffffff;
+  border: 2rpx solid #29c563;
+  box-sizing: border-box;
+  border-radius: 32rpx;
+  font-size: 26rpx;
+  font-family: Source Han Sans CN, Source Han Sans CN-Regular;
+  font-weight: 400;
+  text-align: center;
+  color: #29c563;
+}
+.body .ul .li .pincheing {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 42rpx;
+}
+.body .ul .li .pincheing image {
+  margin-right: 6rpx;
+  width: 32rpx;
+  height: 32rpx;
+}
+.body .ul .li .pincheing text {
+  font-size: 26rpx;
+  font-family: Source Han Sans CN, Source Han Sans CN-Regular;
+  font-weight: 400;
+  text-align: left;
+  color: #666666;
+}
+.body .ul .li .coachMsg {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 10rpx 0 0 0;
+  margin-top: 30rpx;
+  border-top: 2rpx solid #e4e4e4;
+}
+.body .ul .li .coachMsg .detailed {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20rpx;
+}
+.body .ul .li .coachMsg .detailed .key {
+  font-size: 30rpx;
+  font-family: Source Han Sans CN, Source Han Sans CN-Regular;
+  font-weight: 400;
+  text-align: left;
+  color: #999999;
+}
+.body .ul .li .coachMsg .detailed .value {
+  font-size: 30rpx;
+  font-family: Source Han Sans CN, Source Han Sans CN-Regular;
+  font-weight: 400;
+  text-align: left;
+  color: #666666;
+}
+.body .ul .li .coachMsg .icon {
+  position: absolute;
+  right: 0;
+  top: 90rpx;
+  width: 40rpx;
+  height: 40rpx;
+}
+.chooseCar {
+  position: fixed;
+  top: 400rpx;
+  left: 55rpx;
+  z-index: 999;
+  width: 640rpx;
+  height: 470rpx;
+  border-radius: 16rpx;
+}
+.chooseCar .mask {
+  position: absolute;
+  left: -55rpx;
+  top: -400rpx;
+  width: 100vh;
+  height: 100vh;
+  opacity: 0.5;
+  background: #000000;
+}
+.chooseCar .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 640rpx;
+  height: 470rpx;
+  background: #fff;
+  border-radius: 16rpx;
+}
+.chooseCar .content .title {
+  margin-top: 50rpx;
+  font-size: 34rpx;
+  font-family: Source Han Sans CN, Source Han Sans CN-Bold;
+  font-weight: 700;
+  text-align: center;
+  color: #111111;
+}
+.chooseCar .content .choose {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 80rpx;
+  width: 560rpx;
+  height: 88rpx;
+  box-sizing: border-box;
+  padding: 20rpx;
+  background: #f2f3f5;
+  border-radius: 16rpx;
+}
+.chooseCar .content .choose picker {
+  width: 100%;
+  font-size: 30rpx;
+  font-family: Source Han Sans CN, Source Han Sans CN-Regular;
+  font-weight: 400;
+  text-align: left;
+  color: #999999;
+}
+.chooseCar .content .choose image {
+  width: 25rpx;
+  height: 18rpx;
+}
+.chooseCar .content .queren {
+  margin-top: 80rpx;
+  width: 560rpx;
+  height: 88rpx;
+  line-height: 88rpx;
+  background: linear-gradient(134deg, #54d685, #29c563 99%);
+  border-radius: 44rpx;
+  font-size: 30rpx;
+  font-family: Source Han Sans CN, Source Han Sans CN-Regular;
+  font-weight: 400;
+  text-align: center;
+  color: #ffffff;
+}
+.launch {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 99rpx;
+  width: 750rpx;
+  height: 104rpx;
+  line-height: 104rpx;
+  background: linear-gradient(134deg, #54d685, #29c563 99%);
+  font-size: 32rpx;
+  font-family: Source Han Sans CN, Source Han Sans CN-Regular;
+  font-weight: 400;
+  text-align: center;
+  color: #ffffff;
+}
+

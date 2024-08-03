@@ -1,0 +1,12 @@
+{
+  "name": "90web",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "bignumber.js": "^9.0.2",
+    "moment": "^2.29.4",
+    "uview-ui": "^2.0.36",
+    "vuex": "^4.0.2"
+  }
+}

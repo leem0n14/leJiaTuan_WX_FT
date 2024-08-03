@@ -1,0 +1,1 @@
+<view><view class="big"><image class="background" src="{{cdn+'/background/invite/inviteBackground.png'}}" mode="aspectFill"></image><image class="QRcode" src="{{QRcodePic}}" mode="aspectFill"></image></view></view>

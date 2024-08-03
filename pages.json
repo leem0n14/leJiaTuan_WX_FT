@@ -1,0 +1,1268 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uni_modules/uview-ui/components/u-$1/u-$1.vue"
+	},
+	// "pages": [ //pages数组中第一项表示应用启动页
+	// 	//参考：https://uniapp.dcloud.io/collocation/pages
+
+
+	// 	{
+	// 		"path": "pages/index/index",
+	// 		"style": {
+	// 			"navigationBarTitleText": "首页",
+	// 			"enablePullDownRefresh": false
+
+	// 		}
+	// 	}, {
+	// 		"path": "pages/login/login",
+	// 		"style": {
+	// 			"navigationBarTitleText": "登录",
+	// 			"enablePullDownRefresh": false
+
+	// 		}
+	// 	}, {
+	// 		"path": "pages/study/study",
+	// 		"style": {
+	// 			"navigationBarTitleText": "学习",
+	// 			"enablePullDownRefresh": false
+	// 		}
+
+	// 	}, {
+	// 		"path": "pages/category/category",
+	// 		"style": {
+	// 			"navigationBarTitleText": "分类",
+	// 			"enablePullDownRefresh": false
+
+	// 		}
+
+	// 	}, {
+	// 		"path": "pages/my/my",
+	// 		"style": {
+	// 			"navigationBarTitleText": "我的",
+	// 			"enablePullDownRefresh": false,
+	// 			"navigationBarBackgroundColor": "#37cf70",
+	// 			"navigationBarTextStyle": "white"
+
+	// 		}
+
+	// 	}, {
+	// 		"path": "pages/index/operate/invite/invite",
+	// 		"style": {
+	// 			"navigationBarTitleText": "邀请好友",
+	// 			"enablePullDownRefresh": false
+	// 		}
+
+	// 	}, {
+	// 		"path": "pages/index/operate/coach/coach",
+	// 		"style": {
+	// 			"navigationBarTitleText": "教练团",
+	// 			"enablePullDownRefresh": false
+	// 		}
+
+	// 	}, {
+	// 		"path": "pages/index/operate/bookingPractice/bookingPractice",
+	// 		"style": {
+	// 			"navigationBarTitleText": "预约练车",
+	// 			"enablePullDownRefresh": false
+	// 		}
+
+	// 	},
+	// 	{
+	// 		"path": "pages/index/operate/guide/guide",
+	// 		"style": {
+	// 			"navigationBarTitleText": "学车指南",
+	// 			"enablePullDownRefresh": false
+	// 		}
+
+	// 	}, {
+	// 		"path": "pages/index/operate/mockExam/mockExam",
+	// 		"style": {
+	// 			"navigationBarTitleText": "模拟考试",
+	// 			"enablePullDownRefresh": false
+	// 		}
+
+	// 	}, {
+	// 		"path": "pages/index/operate/venue/venue",
+	// 		"style": {
+	// 			"navigationBarTitleText": "驾校列表",
+	// 			"enablePullDownRefresh": false
+	// 		}
+
+	// 	},
+	// 	{
+	// 		"path": "pages/index/index_2",
+	// 		"style": {
+	// 			"navigationBarTitleText": "首页2",
+	// 			"enablePullDownRefresh": false
+	// 		}
+
+	// 	},
+	// 	{
+	// 		"path": "pages/index/index_3",
+	// 		"style": {
+	// 			"navigationBarTitleText": "首页3",
+	// 			"enablePullDownRefresh": false
+	// 		}
+
+	// 	},
+	// 	// {
+	// 	// 	"path": "pages/index/shopping/shopping",
+	// 	// 	"style": {
+	// 	// 		"navigationBarTitleText": "商品页",
+	// 	// 		"enablePullDownRefresh": false,
+	// 	// 		"navigationStyle": "custom"
+	// 	// 	}
+	// 	// }, 
+	// 	{
+	// 		"path": "pages/my/myFenqi/myFenqi",
+	// 		"style": {
+	// 			"navigationBarTitleText": "我的分期",
+	// 			"enablePullDownRefresh": false
+	// 		}
+	// 	},
+	// 	{
+	// 		"path": "pages/my/distribution/distribution",
+	// 		"style": {
+	// 			"navigationBarTitleText": "我的分销",
+	// 			"enablePullDownRefresh": false
+	// 		}
+	// 	}, {
+	// 		"path": "pages/my/coupon/coupon",
+	// 		"style": {
+	// 			"navigationBarTitleText": "优惠券",
+	// 			"enablePullDownRefresh": false
+	// 		}
+
+	// 	}, {
+	// 		"path": "pages/my/customer/customer",
+	// 		"style": {
+	// 			"navigationBarTitleText": "联系客服",
+	// 			"enablePullDownRefresh": false
+	// 		}
+
+	// 	}, {
+	// 		"path": "pages/my/returnOpinion/returnOpinion",
+	// 		"style": {
+	// 			"navigationBarTitleText": "意见反馈",
+	// 			"enablePullDownRefresh": false
+	// 		}
+
+	// 	}, {
+	// 		"path": "pages/my/orders/orders",
+	// 		"style": {
+	// 			"navigationBarTitleText": "我的订单",
+	// 			"enablePullDownRefresh": false
+	// 		}
+
+	// 	}, {
+	// 		"path": "pages/my/myCoach/myCoach",
+	// 		"style": {
+	// 			"navigationBarTitleText": "我的教练",
+	// 			"enablePullDownRefresh": false
+	// 		}
+
+	// 	}, {
+	// 		"path": "pages/my/pinTuan/pinTuan",
+	// 		"style": {
+	// 			"navigationBarTitleText": "我的拼团",
+	// 			"enablePullDownRefresh": false
+	// 		}
+
+	// 	}, {
+	// 		"path": "pages/my/myBooking/myBooking",
+	// 		"style": {
+	// 			"navigationBarTitleText": "我的预约",
+	// 			"enablePullDownRefresh": false
+	// 		}
+
+	// 	}, {
+	// 		"path": "pages/my/distribution/getMoney/getMoney",
+	// 		"style": {
+	// 			"navigationBarTitleText": "提现",
+	// 			"enablePullDownRefresh": false
+	// 		}
+
+	// 	}, {
+	// 		"path": "pages/my/distribution/shareTeam/shareTeam",
+	// 		"style": {
+	// 			"navigationBarTitleText": "分享团队",
+	// 			"enablePullDownRefresh": false
+	// 		}
+
+	// 	}, {
+	// 		"path": "pages/my/distribution/shareOrders/shareOrders",
+	// 		"style": {
+	// 			"navigationBarTitleText": "分享订单",
+	// 			"enablePullDownRefresh": false
+	// 		}
+
+	// 	}, {
+	// 		"path": "pages/my/distribution/history/history",
+	// 		"style": {
+	// 			"navigationBarTitleText": "历史收入",
+	// 			"enablePullDownRefresh": false
+	// 		}
+
+	// 	}, {
+	// 		"path": "pages/my/distribution/getMoney/goTixian/goTixian",
+	// 		"style": {
+	// 			"navigationBarTitleText": "提现",
+	// 			"enablePullDownRefresh": false
+	// 		}
+
+	// 	}, {
+	// 		"path": "pages/my/distribution/shareTeam/whoesOrder/whoesOrder",
+	// 		"style": {
+	// 			"navigationBarTitleText": "订单详细",
+	// 			"enablePullDownRefresh": false
+	// 			// "navigationStyle": "custom"
+	// 		}
+
+	// 	}, {
+	// 		"path": "pages/my/myCoach/changeCoach/changeCoach",
+	// 		"style": {
+	// 			"navigationBarTitleText": "更换教练",
+	// 			"enablePullDownRefresh": false
+	// 		}
+
+	// 	}, {
+	// 		"path": "pages/my/myBooking/bookingExam/bookingExam",
+	// 		"style": {
+	// 			"navigationBarTitleText": "预约考试",
+	// 			"enablePullDownRefresh": false
+	// 		}
+
+	// 	}, {
+	// 		"path": "pages/my/signIn/signIn",
+	// 		"style": {
+	// 			"navigationBarTitleText": "签到",
+	// 			"enablePullDownRefresh": false
+	// 		}
+
+	// 	}, {
+	// 		"path": "pages/my/pinche/pinche",
+	// 		"style": {
+	// 			"navigationBarTitleText": "我的拼车",
+	// 			"enablePullDownRefresh": false
+	// 		}
+
+	// 	}, {
+	// 		"path": "pages/my/signIn/detailed/detailed",
+	// 		"style": {
+	// 			"navigationBarTitleText": "积分明细",
+	// 			"enablePullDownRefresh": false
+	// 		}
+
+	// 	}, {
+	// 		"path": "pages/my/pinche/toPinche/toPinche",
+	// 		"style": {
+	// 			"navigationBarTitleText": "发起拼车",
+	// 			"enablePullDownRefresh": false
+	// 		}
+
+	// 	}, {
+	// 		"path": "pages/my/studyProgress/studyProgress",
+	// 		"style": {
+	// 			"navigationBarTitleText": "学车进度",
+	// 			"enablePullDownRefresh": false
+	// 		}
+
+	// 	}, {
+	// 		"path": "pages/study/shoucang/shoucang",
+	// 		"style": {
+	// 			"navigationBarTitleText": "我的收藏",
+	// 			"enablePullDownRefresh": false
+	// 		}
+
+	// 	}, {
+	// 		"path": "pages/study/zhuanxianglianxi/zhuanxianglianxi",
+	// 		"style": {
+	// 			"navigationBarTitleText": "专项练习",
+	// 			"enablePullDownRefresh": false
+	// 		}
+
+	// 	}, {
+	// 		"path": "pages/study/vipCourse/vipCourse",
+	// 		"style": {
+	// 			"navigationBarTitleText": "VIP课程",
+	// 			"enablePullDownRefresh": false
+	// 		}
+
+	// 	}, {
+	// 		"path": "pages/study/cuoti/cuoti",
+	// 		"style": {
+	// 			"navigationBarTitleText": "我的错题",
+	// 			"enablePullDownRefresh": false
+	// 		}
+
+	// 	}, {
+	// 		"path": "pages/study/weizuoti/weizuoti",
+	// 		"style": {
+	// 			"navigationBarTitleText": "未做题",
+	// 			"enablePullDownRefresh": false
+	// 		}
+
+	// 	}, {
+	// 		"path": "pages/study/suijilianxi/suijilianxi",
+	// 		"style": {
+	// 			"navigationBarTitleText": "随机练习",
+	// 			"enablePullDownRefresh": false
+	// 		}
+
+	// 	}, {
+	// 		"path": "pages/study/wodechengji/wodechengji",
+	// 		"style": {
+	// 			"navigationBarTitleText": "我的成绩",
+	// 			"enablePullDownRefresh": false
+	// 		}
+
+	// 	}, {
+	// 		"path": "pages/study/tiku/tiku",
+	// 		"style": {
+	// 			"navigationBarTitleText": "我的题库",
+	// 			"enablePullDownRefresh": false
+	// 		}
+
+	// 	}, {
+	// 		"path": "pages/study/kaogui/kaogui",
+	// 		"style": {
+	// 			"navigationBarTitleText": "考规",
+	// 			"enablePullDownRefresh": false
+	// 		}
+
+	// 	}, {
+	// 		"path": "pages/study/datijiqiao/datijiqiao",
+	// 		"style": {
+	// 			"navigationBarTitleText": "答题技巧",
+	// 			"enablePullDownRefresh": false
+	// 		}
+
+	// 	}, {
+	// 		"path": "pages/study/tubiaoguanli/tubiaoguanli",
+	// 		"style": {
+	// 			"navigationBarTitleText": "图标管理",
+	// 			"enablePullDownRefresh": false
+	// 		}
+
+	// 	}, {
+	// 		"path": "pages/study/tubiaoguanli/l1/l1",
+	// 		"style": {
+	// 			"navigationBarTitleText": "图标一级页面",
+	// 			"enablePullDownRefresh": false
+	// 			// "navigationStyle": "custom"
+	// 		}
+
+	// 	}, {
+	// 		"path": "pages/study/tubiaoguanli/l1/l2/l2",
+	// 		"style": {
+	// 			"navigationBarTitleText": "图标二级页面",
+	// 			"enablePullDownRefresh": false
+	// 			// "navigationStyle": "custom"
+	// 		}
+
+	// 	}, {
+	// 		"path": "pages/study/tubiaoguanli/l1/l2/l3/l3",
+	// 		"style": {
+	// 			"navigationBarTitleText": "图标三级页面",
+	// 			"enablePullDownRefresh": false
+	// 			// "navigationStyle": "custom"
+	// 		}
+
+	// 	}, {
+	// 		"path": "pages/study/lianti/lianti",
+	// 		"style": {
+	// 			"navigationBarTitleText": "练题",
+	// 			"enablePullDownRefresh": false
+	// 			// "navigationStyle": "custom"
+	// 		}
+
+	// 	}, {
+	// 		"path": "pages/study/monikaoshi/monikaoshi",
+	// 		"style": {
+	// 			"navigationBarTitleText": "模拟考试",
+	// 			"enablePullDownRefresh": false
+	// 		}
+
+	// 	}, {
+	// 		"path": "pages/study/lianti/score/score",
+	// 		"style": {
+	// 			"navigationBarTitleText": "成绩",
+	// 			"enablePullDownRefresh": false
+	// 			// "navigationStyle": "custom"
+	// 		}
+
+	// 	}, {
+	// 		"path": "pages/study/kaoshimiji/kaoshimiji",
+	// 		"style": {
+	// 			"navigationBarTitleText": "考试秘籍",
+	// 			"enablePullDownRefresh": false
+	// 			// "navigationStyle": "custom"
+	// 		}
+
+	// 	}, {
+	// 		"path": "pages/study/xuechejiqiao/xuechejiqiao",
+	// 		"style": {
+	// 			"navigationBarTitleText": "学车技巧",
+	// 			"enablePullDownRefresh": false
+	// 			// "navigationStyle": "custom"
+	// 		}
+
+	// 	}, {
+	// 		"path": "pages/study/kaoshimiji/detailed/detailed",
+	// 		"style": {
+	// 			"navigationBarTitleText": "考试秘籍详细",
+	// 			"enablePullDownRefresh": false
+	// 			// "navigationStyle": "custom"
+	// 		}
+
+	// 	}, {
+	// 		"path": "pages/study/yuyinbobao/yuyinbobao",
+	// 		"style": {
+	// 			"navigationBarTitleText": "语音播报",
+	// 			"enablePullDownRefresh": false
+	// 			// "navigationStyle": "custom"
+	// 		}
+
+	// 	}, {
+	// 		"path": "pages/study/dengguangmoni/dengguangmoni",
+	// 		"style": {
+	// 			"navigationBarTitleText": "灯光模拟",
+	// 			"enablePullDownRefresh": false
+	// 		}
+
+	// 	}, {
+	// 		"path": "pages/study/monikaoshi2/monikaoshi2",
+	// 		"style": {
+	// 			"navigationBarTitleText": "科目三模拟考试",
+	// 			"enablePullDownRefresh": false
+	// 			// "navigationStyle": "custom"
+	// 		}
+
+	// 	}, {
+	// 		"path": "pages/study/monikaoshi2/newRoute/newRoute",
+	// 		"style": {
+	// 			"navigationBarTitleText": "新建考试路线",
+	// 			"enablePullDownRefresh": false
+	// 			// "navigationStyle": "custom"
+	// 		}
+
+	// 	}, {
+	// 		"path": "pages/study/monikaoshi2/newRoute/markerMap/markerMap",
+	// 		"style": {
+	// 			"navigationBarTitleText": "移动位置并添加指令",
+	// 			"enablePullDownRefresh": false
+	// 			// "navigationStyle": "custom"
+	// 		}
+
+	// 	}, {
+	// 		"path": "pages/study/monikaoshi2/mockExam3/mockExam3",
+	// 		"style": {
+	// 			"navigationBarTitleText": "模拟科目三考试页 ",
+	// 			"enablePullDownRefresh": false
+	// 			// "navigationStyle": "custom"
+	// 		}
+
+	// 	}, {
+	// 		"path": "pages/index/operate/coach/coachDetail/coachDetail",
+	// 		"style": {
+	// 			"navigationBarTitleText": "教练详细",
+	// 			"enablePullDownRefresh": false
+	// 		}
+
+	// 	}, {
+	// 		"path": "pages/index/operate/venue/venueDetail/venueDetail",
+	// 		"style": {
+	// 			"navigationBarTitleText": "场地详细",
+	// 			"enablePullDownRefresh": false
+	// 		}
+
+	// 	}, {
+	// 		"path": "pages/coachSection/coachSection",
+	// 		"style": {
+	// 			"navigationBarTitleText": "教练端",
+	// 			"enablePullDownRefresh": false,
+	// 			"navigationBarBackgroundColor": "#37cf70",
+	// 			"navigationBarTextStyle": "white"
+	// 			// "navigationStyle": "custom"
+	// 		}
+
+	// 	}, {
+	// 		"path": "pages/coachSection/addCar/addCar",
+	// 		"style": {
+	// 			"navigationBarTitleText": "添加车辆",
+	// 			"enablePullDownRefresh": false
+	// 		}
+
+	// 	}, {
+	// 		"path": "pages/coachSection/carDistribution/carDistribution",
+	// 		"style": {
+	// 			"navigationBarTitleText": "车辆分配",
+	// 			"enablePullDownRefresh": false
+	// 		}
+
+	// 	}, {
+	// 		"path": "pages/coachSection/checking/checking",
+	// 		"style": {
+	// 			"navigationBarTitleText": "考勤打卡",
+	// 			"enablePullDownRefresh": false
+	// 		}
+
+	// 	}, {
+	// 		"path": "pages/coachSection/myPinche/myPinche",
+	// 		"style": {
+	// 			"navigationBarTitleText": "我的拼车",
+	// 			"enablePullDownRefresh": false
+	// 		}
+
+	// 	}, {
+	// 		"path": "pages/coachSection/studentManage/studentManage",
+	// 		"style": {
+	// 			"navigationBarTitleText": "学员管理",
+	// 			"enablePullDownRefresh": false
+	// 		}
+
+	// 	}, {
+	// 		"path": "pages/coachSection/studentsBooking/studentsBooking",
+	// 		"style": {
+	// 			"navigationBarTitleText": "学员预约",
+	// 			"enablePullDownRefresh": false
+	// 		}
+
+	// 	}, {
+	// 		"path": "pages/coachSection/addCar/accident/accident",
+	// 		"style": {
+	// 			"navigationBarTitleText": "添加出险",
+	// 			"enablePullDownRefresh": false
+	// 		}
+
+	// 	}, {
+	// 		"path": "pages/coachSection/addCar/fix/fix",
+	// 		"style": {
+	// 			"navigationBarTitleText": "添加维修",
+	// 			"enablePullDownRefresh": false
+	// 		}
+
+	// 	}, {
+	// 		"path": "pages/coachSection/addCar/insure/insure",
+	// 		"style": {
+	// 			"navigationBarTitleText": "添加保险",
+	// 			"enablePullDownRefresh": false
+	// 		}
+
+	// 	}, {
+	// 		"path": "pages/coachSection/addCar/maintain/maintain",
+	// 		"style": {
+	// 			"navigationBarTitleText": "添加保养",
+	// 			"enablePullDownRefresh": false
+	// 		}
+
+	// 	}, {
+	// 		"path": "pages/coachSection/addCar/record/record",
+	// 		"style": {
+	// 			"navigationBarTitleText": "记录",
+	// 			"enablePullDownRefresh": false
+	// 		}
+
+	// 	}, {
+	// 		"path": "pages/login/status/status",
+	// 		"style": {
+	// 			"navigationBarTitleText": "身份认证",
+	// 			"enablePullDownRefresh": false
+	// 		}
+
+	// 	}
+	// ],
+
+	"pages": [ //pages数组中第一项表示应用启动页
+		//参考：https://uniapp.dcloud.io/collocation/pages
+
+
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"enablePullDownRefresh": false
+
+			}
+		},
+		{
+			"path": "pages/study/study",
+			"style": {
+				"navigationBarTitleText": "学习",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/category/category",
+			"style": {
+				"navigationBarTitleText": "分类",
+				"enablePullDownRefresh": false
+
+			}
+
+		}, {
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#37cf70",
+				"navigationBarTextStyle": "white"
+			}
+		}
+
+	],
+
+
+	"subPackages": [{
+			"root": "page_coachSection",
+			"pages": [{
+					"path": "coachSection",
+					"style": {
+						"navigationBarTitleText": "教练端",
+						"enablePullDownRefresh": false,
+						"navigationBarBackgroundColor": "#37cf70",
+						"navigationBarTextStyle": "white"
+						// "navigationStyle": "custom"
+					}
+				}, {
+					"path": "addCar/addCar",
+					"style": {
+						"navigationBarTitleText": "添加车辆",
+						"enablePullDownRefresh": false
+					}
+				}, {
+					"path": "addCar/accident/accident",
+					"style": {
+						"navigationBarTitleText": "添加出险",
+						"enablePullDownRefresh": false
+					}
+				}, {
+					"path": "addCar/fix/fix",
+					"style": {
+						"navigationBarTitleText": "维修",
+						"enablePullDownRefresh": false
+					}
+				}, {
+					"path": "addCar/insure/insure",
+					"style": {
+						"navigationBarTitleText": "保险",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "addCar/maintain/maintain",
+					"style": {
+						"navigationBarTitleText": "保养",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "addCar/record/record",
+					"style": {
+						"navigationBarTitleText": "记录",
+						"enablePullDownRefresh": false
+					}
+				}, {
+					"path": "carDistribution/carDistribution",
+					"style": {
+						"navigationBarTitleText": "车辆分配",
+						"enablePullDownRefresh": false
+					}
+				}, {
+					"path": "checking/checking",
+					"style": {
+						"navigationBarTitleText": "打卡",
+						"enablePullDownRefresh": false
+					}
+				}, {
+					"path": "myPinche/myPinche",
+					"style": {
+						"navigationBarTitleText": "我的拼车",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "studentManage/studentManage",
+					"style": {
+						"navigationBarTitleText": "学员管理",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "studentManage/studentDetail/studentDetail",
+					"style": {
+						"navigationBarTitleText": "学员信息",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "studentsBooking/studentsBooking",
+					"style": {
+						"navigationBarTitleText": "学员预约",
+						"enablePullDownRefresh": false
+					}
+				}
+			]
+		}, {
+			"root": "page_shopping",
+			"pages": [{
+				"path": "shopping",
+				"style": {
+					"navigationBarTitleText": "商品页",
+					"enablePullDownRefresh": false
+				}
+			}, {
+				"path": "paySuccess",
+				"style": {
+					"navigationBarTitleText": "购买成功",
+					"enablePullDownRefresh": false
+				}
+			}, {
+				"path": "orderDetail",
+				"style": {
+					"navigationBarTitleText": "订单详情",
+					"enablePullDownRefresh": false
+				}
+			}]
+		},
+		{
+			"root": "page_indexOperate",
+			"pages": [{
+					"path": "bookingPractice/bookingPractice",
+					"style": {
+						"navigationBarTitleText": "预约练车",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "coach/coach",
+					"style": {
+						"navigationBarTitleText": "教练团",
+						"enablePullDownRefresh": false
+					}
+				}, {
+					"path": "coach/coachDetail/coachDetail",
+					"style": {
+						"navigationBarTitleText": "教练详细",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "coach/beCoach/beCoach",
+					"style": {
+						"navigationBarTitleText": "成为教练",
+						"enablePullDownRefresh": false
+					}
+				}, {
+					"path": "guide/guide",
+					"style": {
+						"navigationBarTitleText": "练车指南",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "invite/invite",
+					"style": {
+						"navigationBarTitleText": "邀请好友",
+						"enablePullDownRefresh": false
+					}
+				}, {
+					"path": "mockExam/mockExam",
+					"style": {
+						"navigationBarTitleText": "模拟考试",
+						"enablePullDownRefresh": false
+					}
+				}, {
+					"path": "venue/venue",
+					"style": {
+						"navigationBarTitleText": "驾校列表",
+						"enablePullDownRefresh": false
+					}
+				}, {
+					"path": "venue/venueDetail/venueDetail",
+					"style": {
+						"navigationBarTitleText": "场地详细",
+						"enablePullDownRefresh": false
+					}
+				}
+
+			]
+		},
+		{
+			"root": "page_my",
+			"pages": [{
+					"path": "selestCoupon/selestCoupon",
+					"style": {
+						"navigationBarTitleText": "选择优惠劵",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "myCoupon/myCoupon",
+					"style": {
+						"navigationBarTitleText": "我的优惠券",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "coupon/coupon",
+					"style": {
+						"navigationBarTitleText": "优惠券",
+						"enablePullDownRefresh": false
+					}
+				},
+
+				{
+					"path": "customer/customer",
+					"style": {
+						"navigationBarTitleText": "客服",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "distribution/distribution",
+					"style": {
+						"navigationBarTitleText": "我的分销",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "distribution/getMoney/getMoney",
+					"style": {
+						"navigationBarTitleText": "提现",
+						"enablePullDownRefresh": false
+					}
+				}, {
+					"path": "distribution/getMoney/goTixian/goTixian",
+					"style": {
+						"navigationBarTitleText": "提现",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "distribution/history/history",
+					"style": {
+						"navigationBarTitleText": "历史",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "distribution/shareOrders/shareOrders",
+					"style": {
+						"navigationBarTitleText": "分享订单",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "distribution/shareTeam/shareTeam",
+					"style": {
+						"navigationBarTitleText": "分享团队",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "distribution/shareTeam/whoesOrder/whoesOrder",
+					"style": {
+						"navigationBarTitleText": "订单详细",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "myBooking/myBooking",
+					"style": {
+						"navigationBarTitleText": "我的预约",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "myBooking/bookingExam/bookingExam",
+					"style": {
+						"navigationBarTitleText": "预约考试",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "myCoach/myCoach",
+					"style": {
+						"navigationBarTitleText": "我的教练",
+						"enablePullDownRefresh": false
+					}
+				}, {
+					"path": "myBaoming/myBaoming",
+					"style": {
+						"navigationBarTitleText": "我的报名",
+						"enablePullDownRefresh": false
+					}
+				}, {
+					"path": "myBaoming/toBaoming/toBaoming",
+					"style": {
+						"navigationBarTitleText": "填写报名信息",
+						"enablePullDownRefresh": false
+					}
+				}, {
+					"path": "myCoach/changeCoach/changeCoach",
+					"style": {
+						"navigationBarTitleText": "更换教练",
+						"enablePullDownRefresh": false
+					}
+				}, {
+					"path": "myFenqi/myFenqi",
+					"style": {
+						"navigationBarTitleText": "我的分期",
+						"enablePullDownRefresh": false
+					}
+				}, {
+					"path": "orders/orders",
+					"style": {
+						"navigationBarTitleText": "订单",
+						"enablePullDownRefresh": false
+					}
+				}, {
+					"path": "pinche/pinche",
+					"style": {
+						"navigationBarTitleText": "拼车",
+						"enablePullDownRefresh": false
+					}
+				}, {
+					"path": "pinche/toPinche/toPinche",
+					"style": {
+						"navigationBarTitleText": "发起拼车",
+						"enablePullDownRefresh": false
+					}
+				}, {
+					"path": "pinTuan/pinTuan",
+					"style": {
+						"navigationBarTitleText": "我的拼团",
+						"enablePullDownRefresh": false
+					}
+				}, {
+					"path": "pinTuan/pintuanList/pintuanList",
+					"style": {
+						"navigationBarTitleText": "拼团列表",
+						"enablePullDownRefresh": false
+					}
+				}, {
+					"path": "returnOpinion/returnOpinion",
+					"style": {
+						"navigationBarTitleText": "意见反馈",
+						"enablePullDownRefresh": false
+					}
+				}, {
+					"path": "signIn/signIn",
+					"style": {
+						"navigationBarTitleText": "签到",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "signIn/detailed/detailed",
+					"style": {
+						"navigationBarTitleText": "积分明细",
+						"enablePullDownRefresh": false
+					}
+				}, {
+					"path": "studyProgress/studyProgress",
+					"style": {
+						"navigationBarTitleText": "学习进度",
+						"enablePullDownRefresh": false
+					}
+				}, {
+					"path": "myMsg/myMsg",
+					"style": {
+						"navigationBarTitleText": "编辑我的个人信息",
+						"enablePullDownRefresh": false
+					}
+
+				}
+
+			]
+		},
+		{
+			"root": "page_study",
+			"pages": [{
+					"path": "videoView/videoView",
+					"style": {
+						"navigationBarTitleText": "视频播放",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+
+					"path": "cuoti/cuoti",
+					"style": {
+						"navigationBarTitleText": "错题",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "datijiqiao/datijiqiao",
+					"style": {
+						"navigationBarTitleText": "答题技巧",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "datijiqiao/detail/detail",
+					"style": {
+						"navigationBarTitleText": "答题技巧详细",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "dengguangmoni/dengguangmoni",
+					"style": {
+						"navigationBarTitleText": "灯光模拟",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "kaogui/kaogui",
+					"style": {
+						"navigationBarTitleText": "考规",
+						"enablePullDownRefresh": false
+					}
+				}, {
+					"path": "kaoshimiji/kaoshimiji",
+					"style": {
+						"navigationBarTitleText": "考试秘籍",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "kaoshimiji/detailed/detailed",
+					"style": {
+						"navigationBarTitleText": "考试秘籍详细",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "lianti/lianti",
+					"style": {
+						"navigationBarTitleText": "练题",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "lianti/score/score",
+					"style": {
+						"navigationBarTitleText": "成绩",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "monikaoshi/monikaoshi",
+					"style": {
+						"navigationBarTitleText": "模拟考试",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "monikaoshi2/monikaoshi2",
+					"style": {
+						"navigationBarTitleText": "模拟考试科目三",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "monikaoshi2/mockExam3/mockExam3",
+					"style": {
+						"navigationBarTitleText": "模拟科目三考试页",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "monikaoshi2/newRoute/newRoute",
+					"style": {
+						"navigationBarTitleText": "新建模拟路线",
+						"enablePullDownRefresh": false
+					}
+				}, {
+					"path": "monikaoshi2/newRoute/markerMap/markerMap",
+					"style": {
+						"navigationBarTitleText": "标记地图",
+						"enablePullDownRefresh": false
+					}
+				}, {
+					"path": "shoucang/shoucang",
+					"style": {
+						"navigationBarTitleText": "我的收藏",
+						"enablePullDownRefresh": false
+					}
+				}, {
+					"path": "suijilianxi/suijilianxi",
+					"style": {
+						"navigationBarTitleText": "随机练习",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "tiku/tiku",
+					"style": {
+						"navigationBarTitleText": "题库",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "tubiaoguanli/tubiaoguanli",
+					"style": {
+						"navigationBarTitleText": "图标管理",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "tubiaoguanli/l1/l1",
+					"style": {
+						"navigationBarTitleText": "图标管理一级",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "tubiaoguanli/l1/l2/l2",
+					"style": {
+						"navigationBarTitleText": "图标管理二级",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "tubiaoguanli/l1/l2/l3/l3",
+					"style": {
+						"navigationBarTitleText": "图标管理三级",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "vipCourse/vipCourse",
+					"style": {
+						"navigationBarTitleText": "VIP课程",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "weizuoti/weizuoti",
+					"style": {
+						"navigationBarTitleText": "未做题",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "wodechengji/wodechengji",
+					"style": {
+						"navigationBarTitleText": "我的成绩",
+						"enablePullDownRefresh": false
+
+					}
+				},
+				{
+					"path": "xuechejiqiao/xuechejiqiao",
+					"style": {
+						"navigationBarTitleText": "学车技巧",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "xuechejiqiao/detail/detail",
+					"style": {
+						"navigationBarTitleText": "学车技巧详细",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "yuyinbobao/yuyinbobao",
+					"style": {
+						"navigationBarTitleText": "语音播报",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "zhuanxianglianxi/zhuanxianglianxi",
+					"style": {
+						"navigationBarTitleText": "专项练习",
+						"enablePullDownRefresh": false
+					}
+				}
+			]
+		}, {
+			"root": "page_login",
+			"pages": [{
+					"path": "status/status",
+					"style": {
+						"navigationBarTitleText": "身份认证",
+						"enablePullDownRefresh": false
+					}
+				}, {
+					"path": "index_2",
+					"style": {
+						"navigationBarTitleText": "信息收集1",
+						"enablePullDownRefresh": false
+					}
+				}, {
+					"path": "index_3",
+					"style": {
+						"navigationBarTitleText": "信息收集2",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "login",
+					"style": {
+						"navigationBarTitleText": "登录",
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "status/userInfo",
+					"style": {
+						"navigationBarTitleText": "信息收集",
+						"enablePullDownRefresh": false
+					}
+				}
+			]
+		}
+	],
+
+	"globalStyle": { //全局style配置
+		"backgroundColor": "#edeef0",
+		"navigationBarBackgroundColor": "#ffffff",
+		"navigationBarTextStyle": "black"
+	},
+
+
+	"tabBar": {
+		"color": "#999999",
+		"selectedColor": "#333333",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"iconPath": "static/images/icon/indexIcon.png",
+			"selectedIconPath": "static/images/icon/indexIconOn.png",
+			"text": "首页"
+		}, {
+			"pagePath": "pages/study/study",
+			"iconPath": "static/images/icon/studyIcon.png",
+			"selectedIconPath": "static/images/icon/studyIconOn.png",
+			"text": "学习"
+		}, {
+			"pagePath": "pages/category/category",
+			"iconPath": "static/images/icon/categoryIcon.png",
+			"selectedIconPath": "static/images/icon/categoryIconOn.png",
+			"text": "分类"
+		}, {
+			"pagePath": "pages/my/my",
+			"iconPath": "static/images/icon/myIcon.png",
+			"selectedIconPath": "static/images/icon/myIconOn.png",
+			"text": "我的"
+		}]
+	},
+
+	"condition": {
+		"current": 0,
+		"list": []
+	}, //启动模式配置，仅开发期间生效，用于模拟直达页面的场景，如：小程序转发后，用户点击所打开的页面。
+
+	"easycom": {
+		"autoscan": true //,
+		// "custom": {
+		// 	"uni-(.*)": "@/component/uni-$1.vue"
+		// }
+	}
+}

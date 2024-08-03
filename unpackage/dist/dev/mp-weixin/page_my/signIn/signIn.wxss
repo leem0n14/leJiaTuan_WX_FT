@@ -1,0 +1,241 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+/* 主题色 */
+/* 通用样式 */
+.border-bottom {
+  border-bottom: solid 1rpx #f5f5f5;
+}
+.margin-b20 {
+  margin-bottom: 20rpx;
+}
+/* 文字风格 */
+/* 按钮样式 */
+button::after {
+  border: none;
+}
+page {
+  background-color: #f2f3f5;
+}
+.background {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 750rpx;
+  height: 400rpx;
+  z-index: -1;
+}
+.content {
+  position: relative;
+  top: -400rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 750rpx;
+}
+/* 用户信息start */
+.userMsg {
+  position: relative;
+  height: 240rpx;
+  width: 690rpx;
+}
+.userMsg text {
+  position: absolute;
+  top: 58rpx;
+  left: 0;
+  height: 30rpx;
+  font-size: 30rpx;
+  font-family: Source Han Sans CN, Source Han Sans CN-Regular;
+  font-weight: 400;
+  text-align: left;
+  color: #412d00;
+  line-height: 30rpx;
+}
+.userMsg .num {
+  position: absolute;
+  top: 94rpx;
+  left: 0;
+  height: 106rpx;
+  font-size: 80rpx;
+  font-family: Roboto, Roboto-Medium;
+  font-weight: 500;
+  text-align: left;
+  color: #412d00;
+  line-height: 106rpx;
+}
+.userMsg .detailed {
+  position: absolute;
+  right: -30rpx;
+  top: 41rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 197rpx;
+  height: 64rpx;
+  opacity: 0.9;
+  background: #ffffff;
+  border-radius: 32rpx 0rpx 0rpx 32rpx;
+}
+.userMsg .detailed image {
+  width: 30rpx;
+  height: 32rpx;
+  margin-right: 8rpx;
+}
+.userMsg .detailed view {
+  font-size: 26rpx;
+  font-family: Source Han Sans CN, Source Han Sans CN-Regular;
+  font-weight: 400;
+  text-align: left;
+  color: #111111;
+}
+/* 用户信息end */
+/* 签到start */
+.signIn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 690rpx;
+  height: 240rpx;
+  box-sizing: border-box;
+  padding: 0 24rpx;
+  background: #ffffff;
+  border-radius: 16rpx;
+}
+.signIn .title {
+  height: 30rpx;
+  font-size: 30rpx;
+  font-family: Source Han Sans CN, Source Han Sans CN-Regular;
+  font-weight: 400;
+  text-align: left;
+  color: #111111;
+  line-height: 30rpx;
+}
+.signIn .box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 642rpx;
+  height: 120rpx;
+}
+.signIn .box .son {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80rpx;
+  height: 120rpx;
+  background: #f2f3f5;
+  border-radius: 8rpx;
+}
+.signIn .box .son image {
+  width: 68rpx;
+  height: 68rpx;
+}
+.signIn .box .son text {
+  font-size: 22rpx;
+  font-family: Source Han Sans CN, Source Han Sans CN-Regular;
+  font-weight: 400;
+  text-align: center;
+  color: #111111;
+}
+/* 签到end */
+/* 商城start */
+.shop {
+  display: flex;
+  flex-direction: column;
+  width: 690rpx;
+  height: 240rpx;
+  margin-top: 20rpx;
+}
+.shop .title {
+  margin: 29rpx 0;
+  height: 34rpx;
+  border: 1rpx solid rgba(0, 0, 0, 0);
+  font-size: 34rpx;
+  font-family: Source Han Sans CN, Source Han Sans CN-Bold;
+  font-weight: 700;
+  text-align: left;
+  color: #333333;
+  line-height: 34rpx;
+}
+.shop .boxes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 690rpx;
+}
+.shop .boxes .empty {
+  text-align: center;
+  color: #999;
+  width: 100%;
+}
+.shop .boxes .goodBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 216rpx;
+  height: 330rpx;
+  margin-bottom: 22rpx;
+  box-sizing: border-box;
+  background: #ffffff;
+  border-radius: 16rpx;
+}
+.shop .boxes .goodBox image {
+  margin-top: 20rpx;
+  width: 176rpx;
+  height: 176rpx;
+  background: rgba(0, 0, 0, 0);
+  border-radius: 8rpx;
+}
+.shop .boxes .goodBox text {
+  margin-top: 16rpx;
+  max-width: 160rpx;
+  height: 22rpx;
+  font-size: 22rpx;
+  font-family: Source Han Sans CN, Source Han Sans CN-Regular;
+  font-weight: 400;
+  text-align: center;
+  color: #111111;
+  line-height: 22rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.shop .boxes .goodBox .getIt {
+  margin-top: 24rpx;
+  width: 166rpx;
+  height: 48rpx;
+  line-height: 48rpx;
+  text-align: center;
+  color: #ffbb1e;
+  background: #ffffff;
+  border: 1rpx solid #ffbb1e;
+  border-radius: 25rpx;
+}
+/* 商城end */
+

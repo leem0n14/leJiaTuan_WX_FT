@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "添加出险",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-icon": "/uni_modules/uview-ui/components/u-icon/u-icon"
+  }
+}

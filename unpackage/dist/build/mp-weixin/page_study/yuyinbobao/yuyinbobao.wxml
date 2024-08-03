@@ -1,0 +1,1 @@
+<view><view class="body"><block wx:for="{{course==2?lists2:lists3}}" wx:for-item="k" wx:for-index="i" wx:key="i"><view class="son"><view class="box"><image src="{{cdn+(course==2?path2+k.pic:path3+'/'+(i+1)+'.png')}}" mode="aspectFill"></image></view><text>{{k.text}}</text></view></block></view></view>
